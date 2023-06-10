@@ -118,3 +118,10 @@ c:/> echo %CLASSPATH%
 ```
 $ echo $CLASSPATH
 ```
+
+|Function	| Java JAR command|
+|--|--|
+|Run a JAR file	| jar -jar jarfilename.jar|
+|Create a JAR file	| jar cf jarfiletocreate.jar file-list|
+|Open a JAR file	| jar xf jar-file-to-open.jar|
+|Run a JAR without a manifest	| java -cp jarfilename.jar com.example.MainClass|
