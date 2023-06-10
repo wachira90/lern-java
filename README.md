@@ -95,11 +95,26 @@ Hello World
 John Doe
 ```
 
-//Windows
+## run with boset CLASSPATH
 
+```
+D:\test\java\test1>java -classpath .:; Main
+15
+17
+Hello World
+6
+10
+John Doe
+```
+
+### Windows
+
+```
 c:/> echo %CLASSPATH%
+```
 
-//Linux/Unix
+### Linux/Unix
 
+```
 $ echo $CLASSPATH
-
+```
