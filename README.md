@@ -94,3 +94,12 @@ Hello World
 10
 John Doe
 ```
+
+//Windows
+
+c:/> echo %CLASSPATH%
+
+//Linux/Unix
+
+$ echo $CLASSPATH
+
